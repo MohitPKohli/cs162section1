@@ -1,0 +1,12 @@
+make
+  poll: have you used make before?
+    poll: do you like using make? why (not)?
+  rule
+  recipe
+  the first rule
+  implicit rules (filenames)
+  
+git
+  poll: have you used git before?
+    poll: do you like using git? why (not)?
+  (demo)
