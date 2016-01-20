@@ -1,4 +1,4 @@
-### Section 1 Agenda
+# Section 1 Agenda
 
 ### make
 
@@ -11,20 +11,59 @@
 ### git
 
 * Poll: have you used git before?
-* Demo: try it
+* Best way to learn: use it!
 
-1. Go to https://github.com/ayng/dolly and click 'fork' (on the top right)
-1. Clone to your machines
+### Instructions
 
-```
-$ git clone ...
-```
+1. Find a partner.
+1. Go to https://github.com/ayng/dolly and click 'fork' (on the top right).
+1. Clone from your newly forked Github repo to your local machines.
 
-1. Person 1 add text in the file, add commit push
-1. Person 2 add text in the file, add commit push
-1. (Optional) person 1 try to push another change
-1. Person 1 then pull
-1. Git show commits
+    ```
+    $ git clone ...
+    ```
+
+1. Person 1 adds their message to README.md, then adds, commits and pushes.
+
+    ```
+    $ nano README.md # nano is just a basic text editor; if you prefer another one, feel free to use it instead
+    $ git add README.md
+    $ git commit -m "YOUR-MSG-HERE-IN-QUOTES"
+    $ git push origin master
+    ```
+    
+    Tip: in between every command, type `git status` to see git's internal representation.
+
+1. Person 2 pulls, then does the same thing as Person 1 in the previous step.
+
+    ```
+    $ git pull origin master
+    $ # see previous instruction
+    ```
+
+1. (Optional) Person 1 can try to push another change.
+1. Person 1 pulls from the Github repo.
+    
+    ```
+    $ git pull origin master
+    $ git log
+    ```
+    
+    Persons 1 and 2 are now on the latest version of the repo.
+    
+1. Explore! Here are some ideas:
+
+    ```
+    $ git reflog
+    $ git show 123abc
+    $ git checkout 123abc
+    $ git diff
+    ```
+
+If you're bored, you must be a git ninja. Here are some advanced exercises to try.
+
+1. Create a branch, make commits on it, and merge those commits back to the master branch.
+1. (Learn)[https://www.atlassian.com/git/tutorials/undoing-changes/git-revert] about the `reset` and `revert` command.
 
 ### gdb
 
