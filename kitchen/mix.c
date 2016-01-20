@@ -18,16 +18,16 @@ int main(int argc, char* argv[]) {
       return 1;
     }
   }
-  if (multistrcmp(argv[1], argv[2], "tarromin", "vial_of_water")) {
-    //remove(argv[1]);
-    //remove(argv[2]);
-    fclose(fopen("tarromin_potion", "w"));
-  } else if (multistrcmp(argv[1], argv[2], "limpwurt_root", "tarromin_potion")) {
-    //remove(argv[1]);
-    //remove(argv[2]);
-    fclose(fopen("strength_potion", "w"));
+  if (multistrcmp(argv[1], argv[2], "flour", "sugar")) {
+    fclose(fopen("dry_mix", "w"));
+  } else if (multistrcmp(argv[1], argv[2], "milk", "eggs")) {
+    fclose(fopen("wet_mix", "w"));
+  } else if (multistrcmp(argv[1], argv[2], "dry_mix", "wet_mix")) {
+    fclose(fopen("batter", "w"));
+  } else if (multistrcmp(argv[1], argv[2], "batter", "bacon")) {
+    fclose(fopen("bacon_pancakes", "w"));
   } else {
-    printf("%s, %s are not a valid combination.\n", argv[1], argv[2]);
+    printf("%s and %s are not a valid combination.\n", argv[1], argv[2]);
     return 1;
   }
   return 0;

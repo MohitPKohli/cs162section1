@@ -7,7 +7,7 @@
 * Recipe
 * The first rule
 * Implicit rules (filenames)
-* Demo: quest
+* Demo: kitchen
 * Demo: irl
 
 ### git
