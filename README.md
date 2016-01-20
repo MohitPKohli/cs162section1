@@ -1,4 +1,4 @@
-# Section 1 Agenda
+# Section 1
 
 ### make
 
