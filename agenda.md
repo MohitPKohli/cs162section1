@@ -2,16 +2,16 @@
 
 ### make
 
-Poll: have you used make before?
-Rule
-Recipe
-The first rule
-Implicit rules (filenames)
+* Poll: have you used make before?
+* Rule
+* Recipe
+* The first rule
+* Implicit rules (filenames)
 
 ### git
 
-Poll: have you used git before?
-Demo: try it
+* Poll: have you used git before?
+* Demo: try it
 
 1. Go to https://github.com/ayng/dolly and click 'fork' (on the top right)
 1. Clone to your machines
@@ -26,9 +26,9 @@ Demo: try it
 
 ### gdb
 
-Poll: have you used gdb before?
-Demo: hw0
-Demo: pintos
+* Poll: have you used gdb before?
+* Demo: hw0
+* Demo: pintos
 
     pintos --gdb -v -k -T 60 --bochs -- -q run alarm-multiple
 
