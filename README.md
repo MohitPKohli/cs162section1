@@ -8,6 +8,7 @@
 * The first rule
 * Implicit rules (filenames)
 * Demo: quest
+* Demo: irl
 
 ### git
 
