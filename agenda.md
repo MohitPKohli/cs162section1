@@ -63,7 +63,7 @@
 If you're bored, you must be a git ninja. Here are some advanced exercises to try.
 
 1. Create a branch, make commits on it, and merge those commits back to the master branch.
-1. (Learn)[https://www.atlassian.com/git/tutorials/undoing-changes/git-revert] about the `reset` and `revert` command.
+1. [Learn](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert) about the `reset` and `revert` command.
 
 ### gdb
 
