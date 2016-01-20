@@ -16,7 +16,9 @@
 1. Go to https://github.com/ayng/dolly and click 'fork' (on the top right)
 1. Clone to your machines
 
-    $ git clone ...
+```
+$ git clone ...
+```
 
 1. Person 1 add text in the file, add commit push
 1. Person 2 add text in the file, add commit push
