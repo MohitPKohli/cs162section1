@@ -80,5 +80,6 @@ If you're bored, you probably know your way around git. Here are some advanced e
 * Demo: hw0
 * Demo: pintos
 
+```
     pintos --gdb -v -k -T 60 --bochs -- -q run alarm-multiple
-
+```
