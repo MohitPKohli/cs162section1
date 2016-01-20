@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
     //remove(argv[2]);
     fclose(fopen("strength_potion", "w"));
   } else {
-    printf("That's not a valid combination.\n");
+    printf("%s, %s are not a valid combination.\n", argv[1], argv[2]);
     return 1;
   }
   return 0;
