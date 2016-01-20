@@ -13,7 +13,7 @@
 * Poll: have you used git before?
 * Best way to learn: use it!
 
-### Instructions
+#### instructions
 
 1. Find a partner.
 1. Go to https://github.com/ayng/dolly and click 'fork' (on the top right).
